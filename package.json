@@ -1,0 +1,63 @@
+{
+  "name": "@atlex/queue",
+  "version": "0.1.0-beta",
+  "description": "Background jobs, workers, and scheduling for Atlex",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Karen Hamazaspyan",
+    "url": "https://github.com/khamazaspyan"
+  },
+  "keywords": [
+    "atlex",
+    "queue",
+    "typescript",
+    "bullmq",
+    "jobs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlex-framework/atlex-monorepo.git",
+    "directory": "packages/queue"
+  },
+  "homepage": "https://atlex.dev",
+  "bugs": {
+    "url": "https://github.com/atlex-framework/atlex-monorepo/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run -c vitest.config.ts",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@atlex/core": "workspace:*",
+    "@atlex/orm": "workspace:*",
+    "@aws-sdk/client-sqs": "^3.1025.0",
+    "bullmq": "^5.73.0",
+    "ioredis": "^5.10.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^12.8.0",
+    "vitest": "^3.2.4"
+  }
+}
