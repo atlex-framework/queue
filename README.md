@@ -1,6 +1,6 @@
 # @atlex/queue
 
-> Robust background job processing with multiple queue drivers, batching, scheduling, and failure handling for Express + TypeScript applications.
+> Robust background job processing with multiple queue drivers, batching, scheduling, and failure handling for Express + Node.js applications.
 
 [![npm version](https://img.shields.io/npm/v/@atlex/queue.svg?style=flat-square&color=7c3aed)](https://www.npmjs.com/package/@atlex/queue)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square)](https://www.typescriptlang.org/)
@@ -868,4 +868,6 @@ For comprehensive documentation, visit [atlex.dev/guide/queue](https://atlex.dev
 
 ## License
 
-MIT
+## MIT
+
+Part of [Atlex](https://atlex.dev) — A modern framework for Node.js.

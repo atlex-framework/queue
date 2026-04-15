@@ -11,9 +11,29 @@
   "keywords": [
     "atlex",
     "queue",
-    "typescript",
+    "jobs",
+    "background-jobs",
+    "job-queue",
+    "worker",
+    "job-worker",
+    "job-processing",
+    "task-queue",
+    "redis-queue",
     "bullmq",
-    "jobs"
+    "sqs",
+    "database-queue",
+    "task-scheduler",
+    "scheduler",
+    "cron",
+    "cron-jobs",
+    "laravel-queue",
+    "laravel-horizon",
+    "horizon-alternative",
+    "job-retry",
+    "failed-jobs",
+    "nodejs",
+    "javascript",
+    "typescript"
   ],
   "engines": {
     "node": ">=20"
