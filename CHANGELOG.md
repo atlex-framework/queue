@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.6
+
+### Patch Changes
+
+- 0240bf4: Add Google and Apple OAuth2 provider
+- Updated dependencies [0240bf4]
+  - @atlex/core@0.1.6
+  - @atlex/orm@0.1.6
+
 ## 0.1.5
 
 ### Patch Changes
