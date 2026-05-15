@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.9
+
+### Patch Changes
+
+- da7ec68: Add enum, uuid columns
+- Updated dependencies [da7ec68]
+  - @atlex/orm@0.1.10
+  - @atlex/core@0.1.9
+
 ## 0.1.8
 
 ### Patch Changes
